@@ -1,0 +1,111 @@
+.container{
+	width: 100%;
+	height:1000px;
+	background-image: url(tuyet.jpg);
+	
+}
+.cover{
+	width: 1000px;
+	height: 270px;
+}
+
+.menu{
+	width: 1000px;
+	height:30px;
+	background-color: #444;
+	display: inline-block;
+}
+.menu_bar{
+	width: 100px;
+	float: left;}
+	a{
+		color: #FF9900;
+		text-decoration: none;
+	}
+	a:hover{ 
+		color: blue;
+		text-decoration: underline;}
+		.menu:hover{
+			background-color: white;}
+			hr{width: 1000px; color:#ccc;}
+			.body{
+				width: 1000px;
+				height: 900px;
+				background-color: white;
+			}
+
+		}
+	.body{
+			width:1000px;
+			height:1500px;
+			background-color: white
+		}
+
+		.div{
+			width:1000px;
+			height:200px;
+			float: left;
+			display: inline-block;
+		}
+		.menu1{
+			width: 20%;
+			height: 150px;
+			
+			float: left;
+		}
+		.headline{
+			width: 50%;
+			height :300px;
+			float: left;
+			display: inline-block;
+		}
+		.dauMuc{
+			height: 30px;
+			background-image: url(../menu_bar.gif);
+		}
+		.welcome{
+			width: 500px;
+			height: 150px;
+			background-color: red;
+			border-radius: 10px;
+		}
+		.headline1{
+			width: 500px;
+			height:30px;
+			color: white;
+			background-image: url(../main_bar_left.gif);
+			float: left;
+			display: inline-block;
+		}
+		.headline2{
+			width: 500px;
+			height: 30px;
+			color: white;
+			background-image: url(../main_bar_right.gif);
+			float: left;
+			display: inline-block;
+		}
+
+	.anh{
+     	width: 70px;
+     	height: 70px;
+
+     }
+     .noidung{
+     	float: left;
+     	display: inline-block;
+     }
+     .detail{
+     	float: left;
+     }
+     .title{
+     	float: left;
+
+     }
+  .footer{
+  	width: 100%;
+  	height: 100px;
+  	background-color: #ccc;
+  }
+
+
