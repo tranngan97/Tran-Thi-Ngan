@@ -1,0 +1,183 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+.container{
+	width: 1200;
+	height: 1200px;
+	background-image: url(bg.jpg);
+}
+.header{
+	width: 1200;
+	height: 150px;
+	float: left;
+	display: inline-block;
+	position: relative;
+	
+}
+.logo{
+	width: 300px;
+	height: 100px;
+	font-family:  'ZCOOL QingKe HuangYou', cursive;
+	float: left;
+}
+	
+.SignUp_bar{
+	width: 900px;
+	height: 100px;
+	position: absolute;
+	padding-left:600px;
+	padding-top: 50px;
+	float: left;
+	display: inline-block;
+	
+}
+.button1{
+	text-decoration: none;
+	color: black;
+	font-weight: 20px;
+	font-size: 20px;
+	padding-left: 5px;
+
+}
+.button1:hover{
+	color: white;
+}
+.body{
+	width: 1200px;
+	height: 1200px;
+   float: left;
+   position: relative;
+   display: inline-block;
+}
+.menu{
+	width: 30%;
+	height: 900px;
+	position: absolute;
+	padding-left: 50px;
+	float: left;
+	display: block;
+}
+.link_menu{
+	height: 50px;
+	color: #44444444;
+	font-weight: 50px;
+	font-size: 25px;
+	display: block;
+	text-decoration: none;
+
+}
+.link_menu:hover{
+	color: white;
+}
+.gallery{
+	width: 600px;
+	height: 900px;
+	float: left;
+	display: inline-block;
+	position: relative;
+	margin-left: 200px;
+	padding-left: 100px;
+	
+
+}
+.gallery1{
+	width: 150px;
+	height: 200px;
+	position: absolute;
+	padding: 10px;
+	margin: 50px;
+	float: left;
+}
+.gallery2{
+	width: 150px;
+	height: 200px;
+	position: absolute;
+	padding-top: 60px;
+	margin-left: 280px;
+	float: left;
+}
+.gallery3{
+	width: 150px;
+	height: 200px;
+	position: absolute;
+	padding-top: 60px;
+	margin-left: 520px;
+	float: left;
+}
+.gallery4{
+	width: 150px;
+	height: 200px;
+	position: absolute;
+	padding-top: 300px;
+	margin-left: 60px;
+	float: left;
+}
+.gallery5{
+	width: 150px;
+	height: 200px;
+	position: absolute;
+	padding-top: 300px;
+	margin-left: 280px;
+	float: left;
+}
+.gallery6{
+	width: 150px;
+	height: 200px;
+	position: absolute;
+	padding-top: 300px;
+	margin-left: 520px;
+	float: left;
+}
+.gallery7{
+	width: 150px;
+	height: 200px;
+	position: absolute;
+	padding-top: 500px;
+	margin-left: 60px;
+	float: left;
+}
+.title{
+	width: 150px;
+	height: 30px;
+}
+h1{
+    font-size:25px;
+   font-family:  'ZCOOL QingKe HuangYou', cursive;	
+}
+.content{
+	width: 100px;
+	height: 125px;
+	position: absolute;
+}
+.noidung{
+	width: 150px;
+	height: 70px;
+	background-color: #55555555;
+	color: white;
+	position: absolute;
+    z-index: 100;
+    display: none;
+}
+.gallery:hover .noidung{
+	display: block;
+	margin-top: -75px;
+}
+.gallery1:hover{
+	border-color: blue;
+}
+.footer{
+	width: 1200px;
+	height: 150px;
+	position: absolute;
+	padding-bottom: 0px;
+}
+.copy{
+	width: 30%;
+	height: 150px;
+
+}
+.link_footer{
+	width: 70%;
+	height: 150px;
+}
