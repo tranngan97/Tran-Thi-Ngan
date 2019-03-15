@@ -462,7 +462,7 @@ footer .link_ {
 	.header_menu .menu{
 		width:70%;
 		margin-top: 30px;
-		margin-left: 25%;
+		margin-left:33%;
 	}
 	.header_menu li{
 	width: 9%;
@@ -475,7 +475,15 @@ footer .link_ {
     height: 200px;
     float: left;
     display: inline-block;
-    margin-left: -26%;
+    margin-left: -24%;
+}
+.div1 i{
+	.div1 i {
+    color: white;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
 }
 .div1 .solution {
     width: 10%;
@@ -485,7 +493,7 @@ footer .link_ {
     font-family: 'Overpass', sans-serif;
 }
 .div1 .icon {
-    width: 100%;
+    width: 86%;
     height: 40px;
     background-color: #dc471b;
     border-radius: 50%;
@@ -505,21 +513,21 @@ small {
  .div2 .left {
     width: 80%;
     height: 200px;
-    margin-top: 50px;
+    margin-top: -20px;
     float: left;
     margin-left: 10%;
 }
 .div2 .right {
-    width: 85%;
+    width:90%;
     height: 150px;
-    margin-top: 50px;
-    margin-left: 10%;
+    margin-top:170px;
+    margin-left: 0%;
 }
 .div3 {
     width: 100%;
     height: 500px;
     margin-left: 3%;
-    margin-top: -90px;
+    margin-top:170px;
 }
 .div4 {
     width: 90%;
@@ -527,8 +535,8 @@ small {
     float: left;
 }
 .div4 .icon {
-    width: 12%;
-    height: 45px;
+    width: 11%;
+    height: 57px;
     background-color: #dc471b;
     border-radius: 50%;
     margin-top: 50px;
@@ -567,6 +575,9 @@ small {
     width: 100%;
         height: 1117px;
     background-color: #f2eeee;
+}
+.people img{
+	margin-left: 40%;
 }
 .john {
     width: 100%;
@@ -612,9 +623,9 @@ footer .link_ {
     font-family: 'Overpass', sans-serif;
 }
 .foot {
-    width: 97%;
+    width: 100%;
     height: 100px;
-    margin-left: -31px;
+    margin-left: -81px;
     margin-top: 35px;
     position: absolute;
     float: left;
@@ -623,12 +634,12 @@ footer .link_ {
 }
 .foot p {
     margin-left: 4%;
-    padding-top: 10%;
+    padding-top: 4%;
 }
 .link1 {
     width: 150%;
     height: 30px;
-    margin-left: 1%;
+    margin-left: 10%;
     margin-top: 0px;
 }
 .link1 li {
