@@ -180,6 +180,7 @@ a{
  	height: 400px;
  	background-color: #f2eeee;
  }
+
 .people h3{
 	text-align: center;
 	font-family: 'Overpass', sans-serif;
@@ -187,16 +188,16 @@ a{
 	padding-top: 40px;
 	margin-left: 0px;
 }
-.john{
-	width: 20%;
-	height:200px;
-	margin-left:3%;
-	float: left;
-	margin-top: 50px;
+.john {
+    width: 23%;
+    height: 200px;
+    margin-left: 1%;
+    float: left;
+    margin-top: 50px;
 }
-.people img{
-	margin-left: 25%;
-	border-radius: 20px;
+.people img {
+    margin-left: 28%;
+    border-radius: 20px;
 }
 .john p{
 text-align: center;
@@ -213,14 +214,14 @@ footer{
 	background-color: #3d3c3c;
 	display: inline-block;
 }
-.infor1{
-	width: 20%;
-	height: 350px;
-	float: left;
-	display: inline-block;
-	margin-left: 11%;
-	margin-top: 50px;
-	font-family: 'Overpass', sans-serif;
+	.infor1 {
+    width: 20%;
+    height: 200px;
+    float: left;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 25px;
+    font-family: 'Overpass', sans-serif;
 }
 footer h4{
 	font-size: 20px;
@@ -239,14 +240,14 @@ footer .link_{
 footer p{
 	padding-top: 5%;
 }
-.infor2{
-	width: 20%;
-	height: 350px;
-	float: left;
-	display: inline-block;
-	margin-left: 11%;
-	margin-top: 50px;
-	font-family: 'Overpass', sans-serif;
+.infor2 {
+    width: 20%;
+    height: 200px;
+    float: left;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 90px;
+    font-family: 'Overpass', sans-serif;
 }
 .infor2 .fa{
 	width: 100%;
@@ -263,31 +264,228 @@ footer p{
 .infor2 .fa-home{
 	border: none;
 }
-.foot{
-	width: 100%;
-	height: 100px;
-	margin-left:-950px;
-	margin-top: 95px;
-	position: absolute;
-	float: left;
-	display: inline-block;
-	background-color: black;
+	.infor1 {
+    width: 20%;
+    height: 200px;
+    float: left;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 25px;
+    font-family: 'Overpass', sans-serif;
 }
-.foot p{
-	margin-left: 10%;
-	padding-top: 40px;
+	.foot {
+    width: 100%;
+    height: 100px;
+    margin-left: -999px;
+    margin-top: 69px;
+    position: absolute;
+    float: left;
+    display: inline-block;
+    background-color: black;
 }
-.link1{
-	width: 50%;
-	height: 30px;
-	margin-left: 850px;
-	margin-top: -20px;
+.foot p {
+    font-size: 20px;
+    margin-left: 4%;
+    padding-top: 2%;
+}
+.link1 {
+    font-size: 15px;
+    width: 130%;
+    height: 30px;
+    margin-left: 42%;
+    margin-top: 14px;
+}
+.link1 li {
+    width: 10%;
+    float: left;
+}
+@media all and (max-width: 568px){
+	.header_menu .menu{
+		width:70%;
+		margin-top: 30px;
+		margin-left: 25%;
+	}
+	.header_menu li{
+	width: 9%;
+    float: left;
+    margin-left: 9%;
+    font-size: 8px;
+	}
+	.div1 .creative {
+    width: 125%;
+    height: 200px;
+    float: left;
+    display: inline-block;
+    margin-left: -26%;
+}
+.div1 .solution {
+    width: 10%;
+    height: 200px;
+    float: left;
+    margin-left: 13%;
+    font-family: 'Overpass', sans-serif;
+}
+.div1 .icon {
+    width: 100%;
+    height: 40px;
+    background-color: #dc471b;
+    border-radius: 50%;
+    margin-bottom: 45px;
+    margin-left: 10%;
 
 }
-.link1 li{
-	width:12%;
-	float: left;
+.div1 i{
+	    padding-left: 10px;
 }
+.div2 h3 {
+    margin-left: 30%;
+    font-family: 'Overpass', sans-serif;
+}
+small {
+    margin-left: 0%;
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+}
+ .div2 .left {
+    width: 80%;
+    height: 200px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 10%;
+}
+.div2 .right {
+    width: 85%;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.div3 {
+    width: 100%;
+    height: 500px;
+    margin-left: 3%;
+    margin-top: -90px;
+}
+.div4 {
+    width: 90%;
+    height: 150px;
+    float: left;
+}
+.div4 .icon {
+    width: 16%;
+    height: 57px;
+    background-color: #dc471b;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.purchase {
+    width: 100%;
+    height: 250px;
+    background-color: #dc471b;
+    margin-left: 0;
+    color: white;
+}
+.purchase h3 {
+    margin-left: 25%;
+    padding-top: 50px;
+    clear: both;
+}
+.a {
+    width: 100%;
+    height: 92px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.b {
+    width: 40%;
+    height: 30px;
+    float: left;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+.people {
+    width: 100%;
+        height: 1117px;
+    background-color: #f2eeee;
+
+}
+.people img {
+    margin-left: 29%;
+}
+.john {
+    width: 100%;
+    height: 190px;
+    margin-left:0%;
+    float: left;
+    margin-top: 50px;
+}
+footer {
+    width: 100%;
+    height: 790px;
+    color: white;
+    background-color: #3d3c3c;
+    display: inline-block;
+}
+.infor1 {
+    width: 80%;
+    height: 200px;
+    float: left;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 25px;
+    font-family: 'Overpass', sans-serif;
+}
+footer h4 {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+footer p {
+    padding-top: 5%;
+}
+footer .link_ {
+    height: 50px;
+    border-bottom: 1px solid white;
+}
+.infor2 {
+    width: 80%;
+    height: 200px;
+    float: left;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 75px;
+    font-family: 'Overpass', sans-serif;
+}
+	.foot {
+    width: 100%;
+    height: 75px;
+    margin-left: -35px;
+    margin-top: -17px;
+    position: absolute;
+    float: left;
+    display: inline-block;
+    background-color: black;
+}
+.foot p {
+    font-size: 14px;
+    margin-left: 4%;
+    padding-top: 2%;
+}
+.link1 {
+    font-size: 10px;
+    width: 144%;
+    height: 30px;
+    margin-left: 23%;
+    margin-top: 14px;
+}
+.link1 li {
+    width: 10%;
+    float: left;
+}
+}
+
 @media all and (max-width: 768px){
 	.header_menu .menu{
 		width:70%;
@@ -455,7 +653,7 @@ footer .link_ {
 .foot {
     width: 100%;
     height: 100px;
-    margin-left: -81px;
+    margin-left: -76px;
     margin-top: 35px;
     position: absolute;
     float: left;
@@ -464,13 +662,13 @@ footer .link_ {
 }
 .foot p {
     margin-left: 4%;
-    padding-top: 4%;
+    padding-top:5%;
 }
 .link1 {
     width: 150%;
     height: 30px;
     margin-left: 10%;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 .link1 li {
     width: 13%;
@@ -478,193 +676,27 @@ footer .link_ {
 }
 }
 
-@media all and (max-width: 568px){
-	.header_menu .menu{
-		width:70%;
-		margin-top: 30px;
-		margin-left: 25%;
-	}
-	.header_menu li{
-	width: 9%;
-    float: left;
-    margin-left: 9%;
-    font-size: 8px;
-	}
-	.div1 .creative {
-    width: 125%;
-    height: 200px;
-    float: left;
-    display: inline-block;
-    margin-left: -26%;
+@media all and (min-width: 996px){
+	.people img{
+	margin-left: 40%;
 }
-.div1 .solution {
-    width: 10%;
-    height: 200px;
-    float: left;
-    margin-left: 13%;
-    font-family: 'Overpass', sans-serif;
+.foot{
+	margin-left: -78px;
 }
-.div1 .icon {
+}
+@media all and (min-width: 1200px){
+	.foot {
     width: 100%;
-    height: 40px;
-    background-color: #dc471b;
-    border-radius: 50%;
-    margin-bottom: 45px;
-    margin-left: 10%;
-
-}
-.div1 i{
-	    padding-left: 10px;
-}
-.div2 h3 {
-    margin-left: 30%;
-    font-family: 'Overpass', sans-serif;
-}
-small {
-    margin-left: 0%;
-    font-family: 'Overpass', sans-serif;
-    text-align: center;
-}
- .div2 .left {
-    width: 80%;
-    height: 200px;
-    margin-top: 50px;
-    float: left;
-    margin-left: 10%;
-}
-.div2 .right {
-    width: 85%;
-    height: 150px;
-    margin-top: 50px;
-    margin-left: 10%;
-}
-.div3 {
-    width: 100%;
-    height: 500px;
-    margin-left: 3%;
-    margin-top: -90px;
-}
-.div4 {
-    width: 90%;
-    height: 150px;
-    float: left;
-}
-.div4 .icon {
-    width: 16%;
-    height: 57px;
-    background-color: #dc471b;
-    border-radius: 50%;
-    margin-top: 50px;
-    margin-left: 10%;
-}
-.purchase {
-    width: 100%;
-    height: 250px;
-    background-color: #dc471b;
-    margin-left: 0;
-    color: white;
-}
-.purchase h3 {
-    margin-left: 25%;
-    padding-top: 50px;
-    clear: both;
-}
-.a {
-    width: 100%;
-    height: 92px;
-    margin-left: 10%;
-    margin-top: 20px;
-}
-.b {
-    width: 40%;
-    height: 30px;
-    float: left;
-    background-color: white;
-    color: black;
-    border-radius: 15px;
-    text-align: center;
-    margin-top: 15px;
-}
-.people {
-    width: 100%;
-        height: 1117px;
-    background-color: #f2eeee;
-
-}
-.people img {
-    margin-left: 29%;
-}
-}
-.john {
-    width: 100%;
-    height: 200px;
-    margin-left: 1%;
-    float: left;
-    margin-top: 50px;
-}
-footer {
-    width: 100%;
-    height: 850px;
-    color: white;
-    background-color: #3d3c3c;
-    display: inline-block;
-}
-.infor1 {
-    width: 80%;
-    height: 200px;
-    float: left;
-    display: inline-block;
-    margin-left: 10%;
-    margin-top: 25px;
-    font-family: 'Overpass', sans-serif;
-}
-footer h4 {
-    font-size: 15px;
-    margin-bottom: 8px;
-}
-footer p {
-    padding-top: 5%;
-}
-footer .link_ {
-    height: 50px;
-    border-bottom: 1px solid white;
-}
-.infor2 {
-    width: 80%;
-    height: 200px;
-    float: left;
-    display: inline-block;
-    margin-left: 11%;
-    margin-top: 50px;
-    font-family: 'Overpass', sans-serif;
-}
-.foot {
-    width: 97%;
     height: 100px;
-    margin-left: -31px;
-    margin-top: 35px;
+    margin-left: -912px;
+    margin-top: 69px;
     position: absolute;
     float: left;
     display: inline-block;
     background-color: black;
 }
-.foot p {
-    margin-left: 4%;
-    padding-top: 10%;
-}
-.link1 {
-    width: 150%;
-    height: 30px;
-    margin-left: 1%;
-    margin-top: 0px;
-}
-.link1 li {
-    width: 13%;
-    float: left;
-}
+
 }
 
-@media all and (max-width: 1200px){}
-@media all and (max-width: 996px){}
 
 
