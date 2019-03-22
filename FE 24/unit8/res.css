@@ -1,0 +1,833 @@
+
+@media all and (min-width: 1200px){
+}
+
+
+@media all and (max-width: 768px){
+
+header{
+		display: none;
+	}
+	.anh {
+    width: 100%;
+    height: 540px;
+    margin-left: 0px;
+}
+.anh1 {
+    margin-left: -5px;
+    margin-top: 155px;
+    width: 100%;
+    height: 150px;
+}
+.anh1 img {
+    width: 84%;
+    height: 218px;
+    margin-left: 0px;
+}
+.buTau img {
+    margin-top: 174px;
+    height: 200px;
+    width: 82%;
+    margin-left: 9%;
+}
+	.galerry {
+    height: 1150px;
+    margin-top: 520px;
+    margin-left: 110px;
+}
+.article {
+    width: 80%;
+    margin-left: -85px;
+}
+.arti {
+    margin-top: -15px;
+    width: 95%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Slabo 20px', serif;
+}
+	.main {
+    margin-left: -85px;
+    width: 100%;
+    margin-top: 415px;
+}
+	.main img{
+		width: 80%;
+		height: 270px;
+
+	}
+	.effect {
+    width: 69%;
+    height: 190px;
+    margin-top: 738px;
+    margin-left: -60px;
+}
+.effect .big1{
+	font-size: 25px;
+}
+.effect p {
+    padding-top: 10px;
+}
+	.feature {
+    width: 85%;
+    height: 500px;
+    margin-left: 27px;
+    margin-top: -874px;
+}
+	.feature img {
+    width: 100%;
+    height: 210px;
+}
+	.post1 {
+    width: 77%;
+    height: 98px;
+    margin-left: 14px;
+    margin-top: -13px;
+}
+.post {
+    height: 480px;
+    margin-top: 7px;
+}
+.post1 p {
+    margin-top: 0px;
+    text-align: center;
+}
+.post2 {
+    margin-top: 100px;
+}
+   .imge {
+    width: 88%;
+    height: 600px;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 590px;
+}
+
+.imge img {
+    width: 84%;
+    height: 275px;
+    margin-top: 36px;
+    margin-bottom: 120px;
+
+}
+	.effect2 {
+    width: 65%;
+    height: 230px;
+    margin-left: 60px;
+    margin-top: 835px;
+}
+.effect2 .big1 {
+    font-size: 20px;
+}
+.effect2 p {
+    padding-top: 15px;
+}
+
+.effect3 {
+    width: 65%;
+    height: 190px;
+    margin-left: 60px;
+    margin-top: 1294px;
+}
+.effect3 p {
+    padding-top: 15px;
+}
+	.last_video {
+    margin-top: 1300px;
+    margin-left: 25px;
+    width: 85%;
+    height: 330px;
+}
+.lastest{
+	display: none;
+}
+     .video img {
+    width: 90%;
+    margin-left: -61px;
+    margin-top: -123px;
+}
+
+	.video2{
+		display: none;
+	}
+	.payment {
+    margin-top: -25px;
+    width: 70%;
+    margin-left: 40px;
+}
+	.intro {
+    width: 65%;
+    margin-left: 25px;
+    margin-top: 800px;
+}
+	.prodt {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 300px;
+}
+	.product1 {
+    width: 80%;
+}
+	.johnny {
+		height: 460px;
+		    margin-top: 2500px;
+		    margin-left: 25px;
+}
+.chen{
+	    margin-left: 120px;
+}
+.johnny .chen_ {
+    width: 95%;
+    height: 154px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 9px;
+}
+.johnny .per {
+    width: 50%;
+    height: 150px;
+    margin-left: 95px;
+    margin-top: 90px;
+}
+.per img {
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.team{
+	    width: 95%;
+	    margin-left: -95px;;
+}
+	.team .our {
+    width: 55%;
+    height: 90px;
+    margin-left: 55%;
+    margin-top: -50px;
+}
+	.team .big5 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+.our_ {
+    margin-left: 11px;
+    margin-top: 7px;
+}
+.team_ {
+	margin-left: 100px;
+}
+.mem {
+    width: 85%;
+    margin-top: 50px;
+}
+footer{
+	height: 1151px;
+	margin-top: 1800px;
+}
+.foot{
+	height: 1150px;
+}
+.most {
+    width: 100%;
+    margin-left: 60px;
+}
+.foot2 {
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 44px;
+}
+.foot3 {
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 400px;
+}
+.foot3 .button124 {
+    width: 15%;
+    }
+.get .social {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 70%;
+}
+.get .san {
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+
+	}
+
+
+
+
+
+
+@media all and (max-width: 992px){
+	header{
+		display: block;
+	}
+	.cover{
+		display: none;
+	}
+	.anh {
+    width: 100%;
+    height: 540px;
+    margin-left: 0px;
+}
+.anh1 {
+    margin-left: -5px;
+    margin-top: 155px;
+    width: 100%;
+    height: 150px;
+}
+.anh1 img {
+    width: 84%;
+    height: 218px;
+    margin-left: 0px;
+}
+.buTau img {
+    margin-top: 174px;
+    height: 200px;
+    width: 82%;
+    margin-left: 9%;
+}
+.johnny .chen {
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    margin-left: 47%;
+    margin-top: -20px;
+    background-color: white;
+    text-align: center;
+}
+	.galerry {
+    height: 1150px;
+    margin-top: 520px;
+    margin-left: 110px;
+}
+.article {
+    width: 80%;
+    margin-left: -85px;
+}
+.arti {
+    margin-top: -15px;
+    width: 95%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Slabo 20px', serif;
+}
+	.feature {
+    width: 85%;
+    height: 500px;
+    margin-left: 27px;
+    margin-top: -874px;
+}
+	.feature img {
+    width: 100%;
+    height: 210px;
+}
+.post1 {
+    width: 75%;
+    height: 120px;
+    margin-left: 32px;
+    margin-top: -28px;
+}
+.post2 {
+    margin-top: 120px;
+    width: 50%;
+    margin-left: 155px;
+}
+.post2 .big2{
+	text-align: center;
+}
+.post3 {
+    width: 373px;
+    height: 60px;
+    position: absolute;
+    margin-top: 202px;
+    margin-left: 161px;
+    border-bottom: 1px solid #ccc;
+}
+.post {
+    height: 480px;
+    margin-top: 7px;
+}
+.post1 p {
+    margin-top: 0px;
+    text-align: center;
+}
+.post2 {
+    margin-top: 100px;
+}
+.effect {
+    width: 81%;
+    height: 190px;
+    margin-top: 738px;
+    margin-left: -85px;
+}
+.effect .big1{
+	font-size: 25px;
+}
+.effect p {
+    padding-top: 10px;
+}
+.effect2 {
+    width: 81%;
+    height: 230px;
+    margin-left: 40px;
+    margin-top: 835px;
+}
+.effect3 {
+    width: 81%;
+    height: 180px;
+    margin-left: 44px;
+    margin-top: 1294px;
+}
+.last_video {
+    margin-top: 1300px;
+    margin-left: 50px;
+    width: 85%;
+    height: 580px;
+}
+.lastest {
+    width: 75%;
+    height: 80px;
+    text-align: center;
+    margin-left: 90px;
+    padding-top: 20px;
+    margin-top: 0px;
+    color: white;
+}
+.video img {
+    width: 90%;
+    margin-left: -61px;
+    margin-top: -22px;
+}
+.pay {
+    width: 100%;
+    height: 1000px;
+    margin-top: 85px;
+}
+.payment {
+    margin-top: 25px;
+    width: 80%;
+    margin-left: 50px;
+}
+.intro {
+    width: 65%;
+    margin-left: 25px;
+    margin-top: 890px;
+}
+.prodt {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 50px;
+}
+.product1 {
+	height: 700px;
+}
+.johnny {
+    height: 460px;
+    margin-top: 4775px;
+    margin-left: 40px;
+}
+.chen{
+	margin-left: 300px;
+}
+.johnny .per {
+    width: 50%;
+    height: 150px;
+    margin-left: 275px;
+    margin-top: 30px;
+}
+.team .our {
+    width: 35%;
+    height: 90px;
+    margin-left: 45%;
+    margin-top: -50px;
+}
+.team .big5 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 60px;
+}
+.our_ {
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.mem {
+    width: 65%;
+    height: 650px;
+    margin-top: 70px;
+    margin-left: 135px;
+}
+.team .hr {
+    width: 87%;
+    margin-top: 131px;
+    margin-left: 150px;
+}
+.mem .ava {
+    width: 310px;
+    height: 301px;
+    margin-top: 50px;
+    margin-left: 20%;
+}
+.mem .ava img {
+    width: 89%;
+}
+.mem h2 {
+    margin-left: 40%;
+    }
+
+.mem .acc{
+	margin-left: 30%;
+	margin-top: 40px;
+}
+
+footer {
+    height: 2311px;
+    margin-top: 2500px;
+}
+.most1 {
+    width: 70%;
+    height: 260px;
+    float: left;
+    margin-right: -15px;
+    margin-bottom: 30px;
+}
+.most1 img {
+    width: 75%;
+    height: 75%;
+    margin-top: 17px;
+}
+.foot1 {
+	width: 47%;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 815px;
+    color: white;
+}
+.tag {
+    width: 100%;
+}
+.tag li {
+    width: 17%;
+    height: 27px;
+    
+}
+.foot2 {
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 1200px;
+}
+.foot3 {
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 1560px;
+}
+.get {
+    margin-top: 1160px;
+}
+.get .social {
+	margin-left: 95px;
+
+
+
+
+}
+
+
+
+
+@media all and (max-width: 568px){
+	header{
+		display: none;
+	}
+	.anh {
+    width: 100%;
+    height: 540px;
+    margin-left: 0px;
+}
+.anh1 {
+    margin-left: -5px;
+    margin-top: 155px;
+    width: 100%;
+    height: 150px;
+}
+.anh1 img {
+    width: 84%;
+    height: 218px;
+    margin-left: 0px;
+}
+.buTau img {
+    margin-top: 174px;
+    height: 200px;
+    width: 82%;
+    margin-left: 9%;
+}
+	.galerry {
+    height: 1150px;
+    margin-top: 520px;
+    margin-left: 110px;
+}
+.article {
+    width: 80%;
+    margin-left: -85px;
+}
+.arti {
+    margin-top: -15px;
+    width: 95%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Slabo 20px', serif;
+}
+	.main {
+    margin-left: -85px;
+    width: 100%;
+    margin-top: 415px;
+}
+	.main img{
+		width: 80%;
+		height: 270px;
+
+	}
+	.effect {
+    width: 69%;
+    height: 190px;
+    margin-top: 738px;
+    margin-left: -60px;
+}
+.effect .big1{
+	font-size: 25px;
+}
+.effect p {
+    padding-top: 10px;
+}
+	.feature {
+    width: 85%;
+    height: 500px;
+    margin-left: 27px;
+    margin-top: -874px;
+}
+	.feature img {
+    width: 100%;
+    height: 210px;
+}
+	.post1 {
+    width: 77%;
+    height: 98px;
+    margin-left: 14px;
+    margin-top: -13px;
+}
+.post {
+    height: 480px;
+    margin-top: 7px;
+}
+.post1 p {
+    margin-top: 0px;
+    text-align: center;
+}
+.post2 {
+	width: 60%;
+	 margin-left: 15%;
+    margin-top: 100px;
+}
+.post3 {
+    width: 60%;
+    height: 60px;
+    position: absolute;
+    margin-top: 202px;
+    margin-left: 15%;
+    border-bottom: 1px solid #ccc;
+}
+   .imge {
+    width: 88%;
+    height: 600px;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 590px;
+}
+
+.imge img {
+    width: 84%;
+    height: 275px;
+    margin-top: 36px;
+    margin-bottom: 120px;
+
+}
+	.effect2 {
+    width: 65%;
+    height: 230px;
+    margin-left: 60px;
+    margin-top: 835px;
+}
+.effect2 .big1 {
+    font-size: 20px;
+}
+.effect2 p {
+    padding-top: 15px;
+}
+
+.effect3 {
+    width: 65%;
+    height: 190px;
+    margin-left: 60px;
+    margin-top: 1294px;
+}
+.effect3 p {
+    padding-top: 15px;
+}
+	.last_video {
+    margin-top: 1300px;
+    margin-left: 25px;
+    width: 85%;
+    height: 330px;
+}
+
+    .video img {
+    width: 90%;
+    margin-left: -61px;
+    margin-top: 10px;
+}
+	.video2{
+		display: none;
+	}
+	.payment {
+    margin-top: -25px;
+    width: 70%;
+    margin-left: 40px;
+}
+	.intro {
+    width: 65%;
+    margin-left: 25px;
+    margin-top: 800px;
+}
+	.prodt {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 50px;
+}
+.product1 {
+    height: 400px;
+    width: 80%;
+}
+.johnny {
+    height: 460px;
+    margin-top: 2660px;
+    margin-left: 25px;
+}
+.chen{
+	    margin-left: 120px;
+}
+.johnny .chen_ {
+    width: 95%;
+    height: 154px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 9px;
+}
+.johnny .per {
+    width: 50%;
+    height: 150px;
+    margin-left: 95px;
+    margin-top: 90px;
+}
+.per img {
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.team{
+	    width: 95%;
+	    margin-left: -95px;;
+}
+.team .hr {
+    width: 87%;
+    margin-top: 131px;
+    margin-left: 125px;
+}
+	.team .our {
+    width: 55%;
+    height: 90px;
+    margin-left: 55%;
+    margin-top: -50px;
+}
+	.team .big5 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+.our_ {
+    margin-left: 11px;
+    margin-top: 7px;
+}
+.team_ {
+	margin-left: 100px;
+}
+.mem {
+    width: 85%;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.mem .ava {
+    width: 260px;
+    height: 275px;
+    margin-top: 50px;
+    margin-left: 4%;
+}
+.mem h2 {
+    margin-left: 25%;
+}
+.mem .acc {
+    margin-left: 10%;
+    }
+footer {
+    height:2351px;
+    margin-top: 2300px;
+}
+.foot{
+	height: 1150px;
+}
+.most {
+    width: 100%;
+    margin-left: 60px;
+}
+.foot1 {
+    width: 47%;
+    margin-left: 60px;
+    position: absolute;
+    margin-top: 815px;
+    color: white;
+}
+.foot2 {
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 1250px;
+}
+.foot3 {
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 1575px;
+}
+.foot3 .button124 {
+    width: 15%;
+    }
+    .get {
+    margin-top: 1200px;
+}
+.get .social {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 70%;
+}
+.get .san {
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+
+}
