@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	width: 100%;
+}
 header{
 	width: 100%;
 	height: 492px;
@@ -10,7 +13,7 @@ header{
 .header_menu{
 	width: 65%;
 	height: 100px;
-	margin-left: 30%;
+	margin-left: 28%;
 	padding-top: 87px;
 }
 header ul{
@@ -128,7 +131,6 @@ header img{
 .anh{
 width: 100%;
 height: 540px;
-margin-left: 74px;
 }
 .anh1{
 	width: 27%;
@@ -136,10 +138,33 @@ margin-left: 74px;
 	float: left;
 	background-color: white;
 	text-align: center;
-	margin-left:41px;
+	margin-left: 9%;
 	margin-top: 104px;
 	    border: 1px solid #cccccc59;
 	}
+	.anh2{
+	width: 27%;
+	height: 440px;
+	float: left;
+	background-color: white;
+	text-align: center;
+	margin-left: 3%;
+	margin-top: 104px;
+	    border: 1px solid #cccccc59;
+	}
+	.anh2 img{
+	width:100%;
+	height: 287px;
+	margin-left: 0px;
+}
+.anh2 p{
+	margin-top: 20px;
+}
+.anh2 h3{
+	margin-top: 8px;
+	font-size: 25px;
+}
+
 .anh1 img{
 	width:100%;
 	height: 287px;
@@ -165,12 +190,13 @@ margin-left: 74px;
 	width: 100%;
 	height: 450px;
 	margin-top: 276px;
-    margin-left: 115px;
+    margin-left: 0px;
     position: relative;
 }
 .article{
 	width: 21%;
 	height: 450px;
+	margin-left: 8%;
 }
 .arti{
 	width: 100%;
@@ -207,8 +233,8 @@ margin-left: 74px;
 	width: 65%;
 	height: 450px;
     position: absolute;
-    margin-left: 295px;
-    margin-top: -454px;
+    margin-left: 31%;
+    margin-top: -458px;
 }
 .main h2{
 	font-family: 'Slabo 27px', serif;
@@ -229,7 +255,7 @@ margin-left: 74px;
 	background-color: white;
 	position: absolute;
 	z-index: 1000;
-	    margin-left: 811px;
+	    margin-left: 71%;
     margin-top: -324px;
     text-align: center;
 }
@@ -246,20 +272,24 @@ margin-left: 74px;
 .feature{
 	width: 20%;
 	height: 600px;
-	margin-left: 120px;
-	margin-top:50px;
+	margin-left: 9%;
+	margin-top:44px;
 }
 .feature img{
-	width: 260px;
+	width: 250px;
 	height: 195px;
 }
 .feature h2{
 	font-size: 35px;
 }
+.feature .title p{
+	margin-top: 5px;
+    font-size: 20px;
+}
 .post{
-	width: 100%;
-	height: 550px;
-	margin-top: 34px;
+	width: 96%;
+	height: 527px;
+	margin-top: 29px;
 	    border: 1px solid #cccccc59;
 }
 ._post{
@@ -268,44 +298,53 @@ margin-left: 74px;
 
 }
 .post1{
-	width:200px;
+	width:210px;
 	height: 200px;
 	background-color: white;
 	position: absolute;
 	z-index: 1000;
-	margin-top: -23px;
-	margin-left: 25px;
+	margin-top: -24px;
+	margin-left: 19px;
 }
 .post1 p{
-	margin-top:15px;
+	margin-top:12px;
 	text-align: center;
+}
+.post1 .readmore{
+	margin-top:33px !important;
+
 }
  .big2{
 	font-size: 20px;
+	text-align: center;
+    padding-top: 10px;
 }
 .post2{
-	width: 200px;
-    height: 68px;
+	width: 19%;
+    height: 67px;
     position: absolute;
     margin-top:193px;
-    margin-left: 25px;
+    margin-left: 2px;
     border-bottom: 1px solid #ccc;
     border-top: 1px solid #ccc;
 }
 .post3{
-	width: 202px;
+	width:19%;
     height: 60px;
     position: absolute;
     margin-top: 270px;
- margin-left: 25px;
- border-bottom: 1px solid #ccc;
+ margin-left: 2px;
+ 
+}
+.post3 .big2{
+	padding-top: 1px;
 }
 .imge{
 	width: 50%;
 	height: 600px;
 	position: absolute;
-    margin-left: 408px;
-    margin-top: -650px;
+    margin-left: 31%;
+    margin-top: -646px;
 }
 .imge img{
 	width: 84%;
@@ -340,11 +379,14 @@ margin-left: 74px;
 .effect3 p{
 	padding-top: 28px;
 }
+.effect3 .big1{
+	font-size: 31px;
+}
 .last_video{
 	width: 100%;
 	height: 510px;
 	background-color:#232020;
-	margin-top: -30px;
+	margin-top: -24px;
 }
 .video{
 	width: 94%;
@@ -362,37 +404,72 @@ margin-left: 74px;
 	width: 40%;
     height: 80px;
     text-align: center;
-    margin-left: 420px;
+    margin-left: 33%;
     padding-top: 66px;
     margin-top: 0px;
 	color: white;
 }
 .pay{
 	width: 100%;
-	height: 650px;
-	margin-top: 85px;
+	height: 737px;
+	margin-top: 0px;
+	background-color: #e7e7e7bd;
 }
 .pay .big3{
 	font-size: 60px;
 }
-.payment{
-	width: 23%;
-	height: 575px;
-	background-color: white;
-	float: left;
-	margin-left: 102px;
+.payment1{
+	width: 26%;
+    height: 575px;
+    background-color: white;
+    float: left;
+    margin-left: 117px;
     padding-left: 10px;
     border: 1px solid #f9f8f885;
-        margin-top: 40px;
-
+    margin-top: 116px;
 }
-.pay1{
+.payment2 {
+    width: 27%;
+    height: 633px;
+    background-color: white;
+    float: left;
+    margin-left: 38px;
+    padding-left: 0px;
+    border: 1px solid #f9f8f885;
+    margin-top: 86px;
+}
+.payment3 {
+    width: 27%;
+    height: 575px;
+    background-color: white;
+    float: left;
+    margin-left: 38px;
+    padding-left: 0px;
+    border: 1px solid #f9f8f885;
+    margin-top: 116px;
+}
+.payment1 .pay1{
 	width: 100%;
-	height: 75px;
+	height: 83px;
 	border-bottom: 2px solid #dcdc56;
 	    font-size: 30px;
 	    text-align: center;
 }
+.payment3 .pay1{
+	width: 100%;
+	height: 83px;
+	border-bottom: 2px solid #dcdc56;
+	    font-size: 30px;
+	    text-align: center;
+}
+.payment2 .pay1{
+	width: 100%;
+	height: 113px;
+	border-bottom: 2px solid #dcdc56;
+	 font-size: 30px;
+	 text-align: center;
+}
+
 .pay1 p{
 	padding-top: 20px;
 }
@@ -411,16 +488,17 @@ margin-left: 74px;
 .pay3 p{
 	padding-top: 25px;
 }
-.pay3 .button1{
+ .pay3 .button1{
 	margin-top: 28px;
-	width: 113px;
+	width: 130px;
     height: 50px;
     background-color: black;
     color: white;
+    margin-left: -11px;
 }
 .product{
 	width: 100%;
-	height: 600px;
+	height: 830px;
 }
 .product .big4{
 	font-size: 50px;
@@ -493,8 +571,8 @@ margin-left: 74px;
 	height: 420px;
 	border: 2px solid #ce8c39;
 	color: #ce8c39;
-	margin-left: 117px;
-    margin-top: 270px;
+	margin-left: 109px;
+    margin-top: 36px;
 }
 .johnny .chen {
 	font-size: 35px;
@@ -513,20 +591,20 @@ margin-left: 74px;
 	margin-top: 10px;
 	margin-left: 120px;
 }
-.johnny .per{
-	width: 50%;
+.johnny .per {
+    width: 30%;
     height: 150px;
-    margin-left: 510px;
-    margin-top: 15px;
-
+    margin-left: 518px;
+    margin-top: 43px;
 }
 .per img {
-	border-radius: 50%;
-	margin-bottom: 20px;
+    border-radius: 50%;
+    margin-bottom: 17px;
+    width: 24%;
 }
 .per p{
 color: #2d1d1d;
-margin-top:10px;
+margin-top:4px;
 margin-left: -5px;
 }
 .per .fa-arrow-left{
@@ -619,7 +697,7 @@ margin-left: -5px;
 }
 footer{
 	width: 100%;
-	height: 820px;
+	height:793px;
 	background-color: #484646;
 }
 .foot{
@@ -734,21 +812,20 @@ footer{
     font-size: 15px;
     margin-bottom: 22px;
 }
-.foot3{
-	width: 20%;
-	height: 500px;
-	margin-top: -400px;
-    margin-left: 1035px;
-
+.foot3 {
+    width: 22%;
+    height: 500px;
+    margin-top: -405px;
+    margin-left: 994px;
 }
-.foot3 .button124{
-	width: 6%;
-	height: 40px;
-	background-color: #b5b524;
-	color: white;
-	position: absolute;
-    margin-top: 130px;
-    margin-left: -160px;
+.foot3 .button124 {
+    width: 8%;
+    height: 36px;
+    background-color: #b5b524;
+    color: white;
+    position: absolute;
+    margin-top: 157px;
+    margin-left: -252px;
 }
 .foot3 h4{
 	color: white;
@@ -756,40 +833,45 @@ footer{
 .foot3 p{
 	color: #ccc;
 }
-.foot3 .name{
-	width: 20%;
+.foot3 .name {
+    width: 36%;
+    height: 32px;
+    margin-top: 14px;
 }
-.foot3 .eMail{
-	width: 20%;
-    margin-left: 80px;
-    margin-top: -38px;
+.foot3 .eMail {
+    width: 20%;
+    margin-left: 145px;
+    margin-top: -60px;
 }
-.foot3 .email{
-	width: 40%;
-
-	margin-left: 80px;
-	margin-top: -50px;
-	margin-bottom: 30px;
+.foot3 .email {
+    width: 36%;
+    height: 32px;
+    margin-left: 146px;
+    margin-top: 2px;
+    margin-bottom: 21px;
 }
-.foot3 textarea{
-	height: 100px;
+.foot3 textarea {
+    height: 135px;
+    width: 250px;
 }
 .get{
 	width: 100%;
-	height: 300px;
+	height: 267px;
 	background-color: #352e2ed9;
 	text-align: center;
+	margin-top: 25px;
 }
 .get h2{
 	color: #ccc;
+	padding-top: 40px;
 }
 .get p{
 	color: #ccc;
 }
-.get .social{
-	margin-top: 40px;
-    margin-left: 230px;
-    width: 40%;
+.get .social {
+    margin-top: 22px;
+    margin-left: 401px;
+    width: 20%;
 }
 .get .fa{
 	width: 30px;
@@ -800,12 +882,11 @@ footer{
     color: #d08a22;
     margin-left: 30px;
 }
-.get .san{
-	width: 50%;
-    margin-left: 450px;
-    margin-top: -25px;
+.get .san {
+    width: 30%;
+    margin-left: 637px;
+    margin-top: -30px;
 }
-
 
 
 
