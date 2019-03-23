@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>unit9</title>
+	<style type="text/css">
+		.coChu{
+			width: 300px;
+			height: 150px;
+			border: 1px solid black;
+		}
+		p{
+			font-size: 15px;
+		}
+	</style>
+	<script type="text/javascript">
+		function changeSize() {
+			var macDinh= document.getElementsByClassName("MacDinh").reset();
+			var Lon= document.getElementsByClassName("lon");
+			Lon.addEventListener("click", function(){
+				tangCoChu(this);
+			});
+			var Nho = document.getElementsByClassName("nho");
+			Nho.addEventListener("click", function(){
+				giamCoChu(this);
+			})
+
+		}
+		function tangCoChu(){
+			var P = document.getElementsByTagName("p");
+			var size = document.getElementsByTagName("p").style.fontSize;
+			size = size*1,5;
+
+
+		}
+		function giamCoChu(){
+			var P = document.getElementsByTagName("p");
+			var size = document.getElementsByTagName("p").style.fontSize;
+			size= size*0,5;
+		}
+	</script>
+<body>
+	<div class="coChu">
+		<h3>Cỡ Chữ</h3>
+		<input type="button" name="" value="Mặc Định" class="MacDinh">
+		<input type="button" name="" value="Lớn" class="lon" >
+		<input type="button" name="" value="Nhỏ" class="nho">
+	</div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quasi deleniti eveniet distinctio eius, quia doloremque eos cumque voluptate id. Corporis error atque sequi optio, eum culpa, ab necessitatibus illum.</p>
+
+</body>
+</html>
