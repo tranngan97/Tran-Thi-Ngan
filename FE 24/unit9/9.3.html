@@ -2,40 +2,69 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
- <style type="text/css">
- 	.tab{
- 		width: 100px;
- 		height: 50px;
- 		background-color: black;
- 		color: white;
- 	}
- 	p{ 
- 		border: 1px solid black;
- 		display: none;
- 		
- 	 }
- </style>
+	<title>9.3</title>
+	<style>
+		.tab{
+			float:left;
+
+		}
+		.tab1{
+			width: 400px;
+			margin-left: 20px;
+
+		}
+		p{
+			position: absolute;
+			left:0;
+			
+			margin:0;
+			padding: 20px;
+			display: none;
+			border: 1px solid black;
+			
+		}
+		button{
+			margin: 0px 10px;
+			padding: 10px 20px;
+			background-color: #343333;
+color: white;
+		}
+	</style>
 </head>
 <body>
-	<input type="button" name="" value="Tab1" class="tab">
-	
-	<input type="button" name="" value="Tab2"  class="tab">
-	
-	<input type="button" name="" value="Tab3"  class="tab">
-	<div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eaque esse magnam culpa magni in cumque, atque necessitatibus, assumenda autem veritatis similique nam error. Distinctio nihil fuga laudantium, odit voluptatum.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eaque esse magnam culpa magni in cumque, atque necessitatibus, assumenda autem veritatis similique nam error. Distinctio nihil fuga laudantium, odit voluptatum.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eaque esse magnam culpa magni in cumque, atque necessitatibus, assumenda autem veritatis similique nam error. Distinctio nihil fuga laudantium, odit voluptatum.</p>
-	</div>
-	<script type="text/javascript">
-		var tab= document.getElementsByClassName("tab")[0];
-		tab.addEventListener("click", function(){
-			var P= document.getElementsByTagName("p")[0];
-			for (var i = 0; i < P.length; i++) {
-				P[i].style.display= "block";
-			}
-		})
-	</script>
 
+	<div class="tab">
+		<button>tab 1</button>
+		<p class="tab1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam rem, consequuntur autem dolorum veniam sequi nihil voluptatibus aut velit repellat illum molestias modi facere. Dolorum possimus accusamus consequuntur, modi autem.</p>
+	</div>
+	<div class="tab">
+		<button>tab 2</button>
+		<p class="tab1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, ex. Architecto, nam expedita in accusantium nesciunt quis facere ratione rerum saepe aliquid at tenetur ullam praesentium placeat fugiat voluptatem, illum!</p>
+	</div>
+	<div class="tab">
+		<button>tab 3</button>
+		<p class="tab1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id aliquid, beatae enim totam adipisci eligendi! Magni blanditiis iure, maxime, aut tempora quod eligendi dolore sit, minima nemo inventore nesciunt temporibus.</p>
+	</div>
+
+
+	<div style="clear:both"></div>
+
+	<script >
+		var button= document.getElementsByTagName("button");
+        var content= document.getElementsByTagName("p");
+      for (var i = 0; i < content.length; i++) {
+
+	button[i].addEventListener("click", function(){
+		
+		for (var j = 0; j < content.length; j++) {
+			content[j].style.display="none";
+		}
+
+		this.nextElementSibling.style.display="block";
+	});
+}
+
+	</script>
 </body>
 </html>
+
