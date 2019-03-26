@@ -1,5 +1,502 @@
 
-@media all and (min-width: 1200px){
+@media all and (max-width: 1200px){
+    header{
+        display: block;
+        height: 610px;
+    }
+    header img {
+        height: 427px;
+    }
+    .cover{
+        display: block;
+        margin-top: -300px;
+    }
+    .cover .title p {
+    padding-top: 8%;
+    margin-left: 0%;
+    float: left;
+}
+
+.cover .title .so{
+    padding-right: 5%;
+}
+
+    .section1 {
+    width: 100%;
+    height: 1800px;
+}
+    .anh {
+    width: 100%;
+    height: 1750px;
+    margin-left: 0px;
+}
+.anh1 {
+    margin-left: 7%;
+    margin-top: 155px;
+    width: 85%;
+    height: 450px;
+}
+.anh1 img {
+    width: 100%;
+    height: 300px;
+    margin-left: 0px;
+}
+.anh2 {
+    width: 85%;
+    height: 450px;
+    float: left;
+    background-color: white;
+    text-align: center;
+    margin-left: 7%;
+    margin-top: 104px;
+    border: 1px solid #cccccc59;
+}
+.anh2 img {
+    width: 100%;
+    height: 300px;
+    margin-left: 0px;
+}
+.buTau {
+    width: 100%;
+    height: 300px;
+}
+.buTau img {
+    margin-top: 0px;
+    height: 250px;
+    width: 82%;
+    margin-left: 9%;
+}
+.galerry {
+    height: 1150px;
+    margin-top: 300px;
+    margin-left: 0;
+    width: 100%;
+}
+.article {
+    width: 80%;
+    margin-left: 8%;
+}
+.arti {
+    margin-top: 0px;
+    width: 90%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Slabo 20px', serif;
+}
+._arti {
+    width: 80%;
+    margin-top: -60px;
+    margin-left: 95px;
+}
+
+  
+.feature {
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: -750px;
+}
+.feature img {
+    width: 100%;
+    height: 300px;
+}
+.post {
+    height: 660px;
+    margin-top: 7px;
+}
+.post1 {
+    width: 75%;
+    height: 200px;
+    margin-left: 3%;
+    margin-top: -28px;
+}
+.post2 {
+    height: 85px;
+    margin-top: 185px;
+    width: 77%;
+}
+.post2 .big2{
+    text-align: center;
+}
+.post3 {
+    margin-top: 290px;
+    width: 77%;
+    margin-left: 0%;
+}
+.main {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 700px;
+}
+.main h2{
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.main small{
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.main img {
+    width: 77%;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.effect {
+    width: 80%;
+    height: 200px;
+    margin-top: 1170px;
+    margin-left: 9%;
+}
+.imge {
+    width: 100%;
+    position: absolute;
+    margin-left: 0%;
+   height: 1350px;
+       margin-top: 826px;
+}
+.imge img {
+    width: 77%;
+    height: 350px;
+    margin-left: 10%;
+    margin-top: 100px;
+
+}
+.imge .img8{
+    margin-top: 300px;
+}
+.effect .big1{
+    font-size: 25px;
+}
+.effect p {
+    padding-top: 10px;
+}
+.effect2 {
+    width: 82%;
+    height: 230px;
+    margin-left: 40px;
+    margin-top: 1300px;
+    margin-bottom: 76px;
+}
+.effect3 {
+    width: 77%;
+    height: 180px;
+    margin-left: 74px;
+    margin-top: 1929px;
+}
+.last_video {
+    margin-top: 2050px;
+    margin-left: 50px;
+    width: 85%;
+    height: 750px;
+}
+.lastest {
+    width: 75%;
+    height: 80px;
+    text-align: center;
+    margin-left: 90px;
+    padding-top: 20px;
+    margin-top: 0px;
+    color: white;
+}
+.video {
+    width: 94%;
+    height: 450px;
+    float: left;
+    margin-top: 38px;
+    margin-left: 115px;
+}
+.video img {
+    width: 90%;
+    margin-left: -50px;
+    margin-top: -22px;
+}
+.video2{
+    display: none;
+}
+.pay {
+    width: 100%;
+    height: 2201px;
+    margin-top: 85px;
+}
+.payment1 {
+    width: 80%;
+    height: 574px;
+    background-color: white;
+    float: left;
+    margin-left: 10%;
+    margin-top: 116px;
+}
+.payment2{
+    width: 80%;
+    height: 574px;
+    background-color: white;
+    float: left;
+    margin-left: 10%;
+    margin-top: 116px;
+}
+.payment3{
+    width: 80%;
+    height: 574px;
+    background-color: white;
+    float: left;
+    margin-left: 10%;
+    margin-top: 116px;
+}
+.intro {
+    width: 65%;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 800px;
+}
+.intro p{
+    font-size: 25px;
+}
+.product {
+    width: 100%;
+    height: 5000px;
+    margin-top: -700px;
+}
+.prodt {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 120px;
+}
+.product1 {
+    width: 80%;
+    height:1000px;
+    margin-left: 10%;
+}
+.product1 h4{
+    font-size: 45px;
+}
+.product1 p{
+    font-size: 50px !important;
+}
+.johnny {
+    height: 500px;
+    margin-top: 1900px;
+    margin-left: 10%;
+    width: 80%;
+}
+.chen{
+    margin-left: 300px;
+}
+.johnny .chen {
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    margin-left: 47%;
+    margin-top: -20px;
+    background-color: white;
+    text-align: center;
+}
+.johnny .chen_ {
+    width: 80%;
+    height: 150px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+.johnny .per {
+    width: 50%;
+    height: 150px;
+    margin-left: 25%;
+    margin-top: 150px;
+}
+.per img {
+    border-radius: 50%;
+    margin-bottom: 17px;
+    width: 24%;
+    margin-left: 35%;
+}
+.per p{ text-align: center; }
+.per .fa-arrow-left {
+    margin-left: -175px;
+    }
+.team {
+    width: 100%;
+   height: 3010px;
+}
+.team .hr {
+    width: 80%;
+    margin-top: 131px;
+    margin-left: 10%;
+}
+.team .our {
+    width: 35%;
+    height: 90px;
+    margin-left: 35%;
+    margin-top: -50px;
+}
+.team_ {
+    width: 100%;
+    height:3000px;
+    margin-left: 0%;
+    margin-top: 65px;
+    display: inline-block;
+}
+.team .big5 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 60px;
+}
+.our_ {
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.mem {
+    width: 65%;
+    height: 650px;
+    margin-top: 70px;
+    margin-left: 20%;
+}
+.team .hr {
+    width: 87%;
+    margin-top: 131px;
+    margin-left: 150px;
+}
+.mem .ava {
+    width: 310px;
+    height: 301px;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+.mem .ava img {
+    width: 89%;
+}
+.mem h2 {
+    margin-left: 40%;
+    }
+
+.mem .acc{
+    margin-left: 30%;
+    margin-top: 40px;
+}
+
+footer {
+   height: 2850px;
+    margin-top: 200px;
+}
+.foot {
+    width: 100%;
+    height: 1688px;
+    margin-top: 75px;
+}
+.most {
+    width: 86%;
+    height: 800px;
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 56px;
+    color: white;
+}
+.most1 {
+    width: 70%;
+    height: 350px;
+    float: left;
+    margin-right: -15px;
+    margin-bottom: 30px;
+}
+.most1 img {
+    width: 75%;
+    height: 75%;
+    margin-top: 17px;
+}
+.foot1 {
+    width: 47%;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 815px;
+    color: white;
+}
+
+.tag {
+    width: 100%;
+}
+.tag li {
+    width: 17%;
+    height: 27px;
+    
+}
+.foot2 {
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 1215px;
+}
+.foot2 .anh123 {
+    width: 90%;
+    height: 250px;
+}
+.foot2 h4 {
+    margin-top: -55px;
+    font-size: 15px;
+    margin-bottom: 22px;
+}
+.foot2 .email{
+    width: 55%;
+}
+.foot3 {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 1560px;
+}
+.foot3 h4{
+    margin-left: 10%;
+    }
+    .foot3 p{
+        margin-left: 10%;
+    }
+    .foot3 .name {
+    width: 80%;
+    height: 32px;
+    margin-top: 14px;
+    margin-left: 10%;
+}
+.foot3 .email {
+    width: 80%;
+    height: 32px;
+    margin-left: 100px;
+    margin-top: 2px;
+    margin-bottom: 21px;
+}
+.foot3 .eMail {
+    width: 20%;
+    margin-left: 100px;
+    margin-top: 27px;
+}
+.foot3 textarea {
+    height: 140px;
+    width: 80%;
+    margin-left: 10%;
+}
+.foot3 .button124 {
+    width: 10%;
+    height: 36px;
+    background-color: #b5b524;
+    color: white;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: -80%;
+}
+.get {
+    margin-top: 1160px;
+}
+.get .social {
+    margin-left: 55%;
+    width: 40%;
+}
+.get .san {
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 0px;
+}
+
+
+
 }
 
 
@@ -241,13 +738,14 @@
 .prodt {
     width: 100%;
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 120px;
 }
 .product1 {
     width: 80%;
-    height: 700px;
+    height: 800px;
     margin-left: 10%;
 }
+
 .johnny {
     height: 500px;
     margin-top: 50px;
@@ -764,7 +1262,7 @@ header{
 .team .hr {
     width: 87%;
     margin-top: 131px;
-   margin-left: 7%;
+   margin-left: 10%;
 }
 .team .our {
     width: 40%;
@@ -1083,7 +1581,13 @@ footer {
 .lastest{
     display: none;
 }
-
+.video {
+    width: 94%;
+    height: 450px;
+    float: left;
+    margin-top: 38px;
+    margin-left: 90px;
+}
     .video img {
     width: 90%;
     margin-left: -61px;
@@ -1144,15 +1648,24 @@ footer {
     margin-left: 25px;
     margin-top: 800px;
 }
+.intro p {
+    font-size: 15px;
+}
 .product1 {
     height: 500px;
     width: 80%;
     margin-left: 10%;
 }
+.product1 p {
+    font-size: 25px !important;
+}
+.product1 h4 {
+    font-size: 30px;
+}
 .johnny {
     height: 460px;
-    margin-top: 50px;
-    margin-left: 25px;
+    margin-top: -50px;
+    margin-left: 10%;
 }
 .johnny .chen {
     font-size: 35px;
@@ -1265,7 +1778,7 @@ footer {
     width: 100%;
     height: 350px;
     margin-left: 0px;
-    margin-top: 350px;
+    margin-top: 410px;
 }
 .foot2 h3 {
     margin-top: 3px;
