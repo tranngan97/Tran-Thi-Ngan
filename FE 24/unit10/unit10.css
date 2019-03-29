@@ -1,0 +1,29 @@
+button{
+	margin-left: 30px;
+	margin-top: 20px;
+	color: white;
+	background-color: red;
+}
+form{
+	width: 50%;
+	border: 1px solid black;
+}
+
+p{
+	margin-left: 10%;
+}
+.input{
+	position: absolute;
+	margin-left: 25%;
+	margin-top: -225px;
+}
+input{
+	margin-top: 15px;
+}
+.submit{
+	margin-left: 30px;
+	margin-top: 20px;
+	color: white;
+	background-color: red;
+
+}
