@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>11.1</title>
+	<style type="text/css" media="screen">
+		#container{
+			width: 50%;
+			margin-left: 30%;
+			height: 500px;
+		}
+		.todo {
+			width: 100%;
+			height: 125px;
+			background-color: #f13939;
+			position: relative;
+		}
+		.todo h2{
+			color: white;
+			text-align: center;
+			padding-top: 45px;
+		}
+		.list {
+			width: 80%;
+			height: 50px;
+			position: absolute;
+			margin-top: -15px;
+			float: left;
+		}
+		.list .title{
+			width: 70%;
+			margin-left: 5%;
+			height: 35px;
+		}
+		
+		.list .add {
+			position: absolute;
+			width: 15%;
+			margin-left: 20%;
+			height: 30px;
+			margin-top: 5px;
+		}
+		ul{
+
+			width: 100%;
+			height: 400px;
+			margin-top: 0px;
+			list-style-type: none;
+			margin-left: -40px;
+		}
+		ul> li{
+			position: absolute;
+			width: 49%;
+			margin-left: 0px;
+			height: 50px;
+			background-color: #cac9c9;
+			display: none;
+		}
+		li p{
+			width: 80%;
+			height: 30px;
+			margin-left: 10%;
+			margin-top: 15px;
+		}
+		li .xButton{
+			float: right;
+			border: none;
+			background-color: #ccc;
+			margin-top: -60px;
+		}
+		li .check {
+			position: absolute;
+			margin-top: 15px;
+		}
+
+	</style>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			
+			$(".add").click(function()
+			{	
+				var newItem = $(".title").val();
+				if (newItem.length>0)
+				{
+					$(".lists").css("display", "block");
+					$(".text").text(newItem);
+					$(".title").val('');
+
+				}
+				else {
+					alert("write something!");
+				}
+
+				
+			});
+
+			$(".xButton").click(function(){
+				$(".lists").css("display","none");
+
+			});
+
+			$("li").click(function(){
+				$("li").css("text-decoration", "line-through");
+				$("checkbox").checked= true;
+
+
+			});
+
+
+
+		});
+		
+	</script>
+</head>
+<body>
+	<div id="container">
+		<div class="todo">
+			<h2>My To Do List</h2>
+			<div class="list">
+				<input type="text" name="title" value="" placeholder="Title..." class="title">
+				<input type="button" name="add" value="Add" class="add">
+			</div>
+		</div>
+		<ul>
+			<li class="lists">
+				<input type="checkbox" name="" value="" class="check">
+				<p class="text"></p>
+				<button class="xButton">X</button>
+
+			</li>
+
+		</ul>
+		
+	</div>
+
+	
+</body>
+</html>
