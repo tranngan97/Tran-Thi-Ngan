@@ -40,6 +40,8 @@
 			height: 30px;
 			margin-top: 5px;
 		}
+		
+		
 		ul{
 
 			width: 100%;
@@ -90,7 +92,16 @@
 				}
 				else {
 					alert("write something!");
-				}
+				};
+				if (newItem.length>=1){
+					$(".lists").append(`<li class="lists">
+				<input type="checkbox" name="" value="" class="check">
+				<p class="text"> `+ newItem + `</p>
+				<button class="xButton">X</button>
+
+			</li>`);
+
+				};
 
 				
 			});
