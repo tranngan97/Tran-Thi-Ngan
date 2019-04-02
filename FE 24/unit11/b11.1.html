@@ -64,16 +64,22 @@
 			margin-left: 10%;
 			margin-top: 15px;
 		}
+		li .fa-check{
+			width: 5%;
+			color: white;
+			position: absolute;
+			margin-top: 15px;
+			display: none;
+			
+		}
+
 		li .xButton{
 			float: right;
 			border: none;
 			background-color: #ccc;
 			margin-top: -60px;
 		}
-		li .check {
-			position: absolute;
-			margin-top: 15px;
-		}
+		
 
 	</style>
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
@@ -86,35 +92,27 @@
 				if (newItem.length>0)
 				{
 					$(".lists").css("display", "block");
+					$("li").css("text-decoration", "none");
+					$(".fa-check").css("display", "none");
 					$(".text").text(newItem);
 					$(".title").val('');
+
 
 				}
 				else {
 					alert("write something!");
 				};
-				if (newItem.length>=1){
-					$(".lists").append(`<li class="lists">
-				<input type="checkbox" name="" value="" class="check">
-				<p class="text"> `+ newItem + `</p>
-				<button class="xButton">X</button>
-
-			</li>`);
-
-				};
-
-				
 			});
 
 			$(".xButton").click(function(){
-				$(".lists").css("display","none");
+                $(".lists").css("display","none");
+
 
 			});
 
 			$("li").click(function(){
 				$("li").css("text-decoration", "line-through");
-				$("checkbox").checked= true;
-
+                $(".fa-check").css("display", "block");
 
 			});
 
@@ -123,6 +121,7 @@
 		});
 		
 	</script>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 </head>
 <body>
 	<div id="container">
@@ -135,7 +134,7 @@
 		</div>
 		<ul>
 			<li class="lists">
-				<input type="checkbox" name="" value="" class="check">
+				<i class="fa fa-check"></i>
 				<p class="text"></p>
 				<button class="xButton">X</button>
 
