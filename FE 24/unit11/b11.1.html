@@ -46,23 +46,23 @@
 
 			width: 100%;
 			height: 400px;
-			margin-top: 0px;
+			margin-top: -15px;
 			list-style-type: none;
 			margin-left: -40px;
 		}
 		ul> li{
-			position: absolute;
-			width: 49%;
+			
+			width: 100%;
 			margin-left: 0px;
 			height: 50px;
 			background-color: #cac9c9;
-			display: none;
 		}
 		li p{
 			width: 80%;
 			height: 30px;
 			margin-left: 10%;
 			margin-top: 15px;
+			padding-top: 15px;
 		}
 		li .fa-check{
 			width: 5%;
@@ -89,24 +89,28 @@
 			$(".add").click(function()
 			{	
 				var newItem = $(".title").val();
+				$(".title").val('');
+				$(".toDO").append(`<li class="lists">
+				<i class="fa fa-check"></i>
+				<p class="text">`+newItem +`</p>
+				<button class="xButton">X</button>
+
+			</li>`);
 				if (newItem.length>0)
+
 				{
-					$(".lists").css("display", "block");
 					$("li").css("text-decoration", "none");
 					$(".fa-check").css("display", "none");
-					$(".text").text(newItem);
-					$(".title").val('');
-
-
 				}
 				else {
 					alert("write something!");
 				};
-			});
 
-			$(".xButton").click(function(){
+ 	});
+			
+
+			$(".toDO").appendChild().$(".xButton").click(function(){
                 $(".lists").css("display","none");
-
 
 			});
 
@@ -115,8 +119,6 @@
                 $(".fa-check").css("display", "block");
 
 			});
-
-
 
 		});
 		
@@ -132,13 +134,8 @@
 				<input type="button" name="add" value="Add" class="add">
 			</div>
 		</div>
-		<ul>
-			<li class="lists">
-				<i class="fa fa-check"></i>
-				<p class="text"></p>
-				<button class="xButton">X</button>
-
-			</li>
+		<ul class="toDO">
+			
 
 		</ul>
 		
