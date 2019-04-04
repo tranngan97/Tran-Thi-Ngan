@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul {
+	list-style-type: none;
+}
+.container{
+	width: 100%;
+	margin: auto;
+}
+.contain{
+	width: 90%;
+	margin-left: 5%;
+}
+header{
+	width: 100%;
+	height: 400px;
+}
+.header-menu{
+	width: 100%;
+	height: 60px;
+	background-color: #00a1ff;
+}
+.header-menu a{
+	color: white !important;
+}
+header a:hover{
+	color:#dd7d1a !important;
+}
+.header_menu li{
+	width: 14%;
+	float: left;
+	text-align: center;
+}
+.header_menu li p{
+	width: 40px;
+	height: 20px;
+	background-color: #d51313;
+	color: white;
+	float: right;
+}
+.header-menu .logo{
+	width: 15%;
+	height: 50px;
+	margin-left: 5%;
+	font-size: 30px;
+}
+.header_menu{
+width: 75%;
+    margin-left: 25%;
+    margin-top: -35px;
+}
+.header-content{
+	width: 100%;
+	height: 300px;
+	background-color: #e7e5e599;
+}
+.header-img{
+	width: 30%;
+	height: 125px;
+	float: right;
+	background-color: #ccc;
+	margin-right: 50px;
+	margin-top: -95px;
+}
+.header-img img{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.header-img .a{
+	width: 50%;
+	height: 50px;
+	float: right;
+	margin-top: 20px;
+
+}
+.header-img a{
+	color: #1781a9de !important;}
+.header-img a:hover{
+	color: black !important;}
+.social{
+	width: 20%;
+	height: 100px;
+	margin-left: 35%;
+	margin-top: 80px;
+}
+.social div{
+	border-radius: 10px;
+}
+.social .fa{
+	float: left;
+}
+.social p{
+	margin-left: 20%;
+}
+.tweet{
+	width: 35%;
+	height: 27px;
+	background-color: #62bfe3;
+	color: white;
+	text-align: center;
+}
+.star{
+	width: 35%;
+	height: 27px;
+	text-align: center;
+	border: 1px solid #b4b2b259;
+	background-color: white;
+	margin-top: 10px;
+}
+.fork {
+	width: 35%;
+	height: 28px;
+	text-align: center;
+	background-color: white;
+	border: 1px solid #b4b2b259;
+	float: right;
+	margin-top: -30px;
+}
+.fb{
+	width: 35%;
+	height: 27px;
+	background-color: #3a61ce;
+	color: white;
+	text-align: center;
+	float: right;
+	margin-top: -65px;
+}
+.header-content h1,h2{
+	width: 40%;
+color: #2c61c2;
+padding-top: 20px;
+padding-left: 5%;
+}
+.header-content h1{
+	font-size: 45px;
+}
+.body{
+	width: 100%;
+	height: 1000px;
+}
+.panel{
+	width: 20%;
+	height: 400px;
+	background-color: #cccccc63;
+
+}
+.panel li{
+	width: 100%;
+	height: 50px;
+	color: #408fad;
+	padding-left: 15px;
+
+}
+.noiDung{
+	width: 70%;
+	height: 800px;
+	float: right;
+	margin-top: -400px;
+
+}
+.noidung{
+	display: none;
+}
+.code {
+	width: 15%;
+    height: 30px;
+    margin-top: 50px;
+    background-color: #2cb9e3d6;
+    color: white;
+}
+.noiDung hr{
+	width: 100%;
+}
+.tab{
+	margin-top: 30px;
+}
+.tab .active{
+	width: 20%;
+    height: 50px;
+    background-color: #00a1ff;
+    color: white;
+    margin-left: 3%;
+}
+.tab button{
+	width: 20%;
+    height: 50px;
+    background-color: #ccc;
+    color: white;
+    margin-left: 3%;
+
+}
+.form{
+    width: 100%;
+    height: 350px;
+    background-color: #cccccc87;
+    margin-top: 50px;
+}
+.form .form1{
+ display: none; 
+}
+.form h3{
+	font-size: 30px;
+}
+.form input{
+	margin-top: 20px;
+}
+.noidung .button{
+	margin-top: 50px;
+	margin-left: 70%;
+
+}
+.noidung .button button{
+	width: 30%;
+    height: 40px;
+    background-color: #005aff;
+    color: white;
+}
