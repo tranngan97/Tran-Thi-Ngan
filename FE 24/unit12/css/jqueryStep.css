@@ -211,11 +211,11 @@ padding-left: 5%;
 	margin-top: 20px;
 }
 .noidung .button{
-	margin-top: 50px;
+	margin-top: 100px;
 	margin-left: 70%;
 
 }
-.noidung .button button{
+.button button{
 	width: 30%;
     height: 40px;
     background-color: #005aff;
