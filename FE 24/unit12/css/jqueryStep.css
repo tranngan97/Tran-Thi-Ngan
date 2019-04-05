@@ -204,6 +204,9 @@ padding-left: 5%;
 .form .form1{
  display: none; 
 }
+.form .active{
+	display: block;
+}
 .form h3{
 	font-size: 30px;
 }
