@@ -37,9 +37,9 @@ $(function(){
 		};
 		if ( (username!= "") && (pass!= "") && (repass!="")){
 			$(".tab .active").removeClass("active");
-			$(".tab").next().children().addClass("active");
+			$(".tab").next().children().addClass(".active");
 			$(".form .active").removeClass("active");
-			$(".form").next().children().addClass("active");
+			$(".form").next().children(".form1").addClass(".active");
 
 		};
 	});
