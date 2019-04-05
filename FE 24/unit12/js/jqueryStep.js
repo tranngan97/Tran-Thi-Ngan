@@ -34,12 +34,74 @@ $(function(){
 			$(".tab .active").css("background-color", "red");
 
 		};
+		
 		if ( (username!= "") && (pass!= "") && (repass!="")){
-			$(".tab .active").removeClass("active");
-			$(".tab").next().children().addClass("active");
-			$(".form .active").removeClass("active");
-			$(".form").next().children().find(".form1").addClass("active");
+			$(".tab .active").addClass(function(){
+				$(this).removeClass("active");
+				$(this).next().addClass("active");
+
+			});
+			
+			$(".form .active").addClass(function(){
+				$(this).removeClass("active");
+				$(this).next().addClass("active");
+			});
+		};
+		});
+	$(".next").click(function(){
+		var firstname= $("#firstName").val();
+		var lastname= $("#lastName").val();
+		var email= $("#eMail").val();
+		var add = $("#add").val();
+        var agg= $("#agg").val();
+        if (firstname== ""){
+			$(".form .ero4 p").text("This field is required");
+			$(".form .ero4 p").css("color", "red");
+			$(".form #firstName ").css("background-color", "pink");
+			$(".tab .active").css("background-color", "red");
 
 		};
+		if(lastname== ""){
+			$(".form .ero5 p").text("This field is required");
+			$(".form .ero5 p").css("color", "red");
+			$(".form #lastName").css("background-color", "pink");
+			$(".tab .active").css("background-color", "red");
+		};
+		if (email==""){
+			$(".form .ero6 p").text("This field is required");
+			$(".form .ero6 p").css("color", "red");
+			$(".form #eMail").css("background-color", "pink");
+			$(".tab .active").css("background-color", "red");
+
+		};
+
+		if (add==""){
+			$(".form .ero7 p").text("This field is required");
+			$(".form .ero7 p").css("color", "red");
+			$(".form #add").css("background-color", "pink");
+			$(".tab .active").css("background-color", "red");
+
+		};
+		if (agg > 18){
+			$(".tab .warning").removeClass("active");
+			$(".tab .finish").addClass("active");
+			$(".form1 .warning").removeClass("active");
+			$(".form1 .finish").addClass("active");
+
+		};
+		if ( (firstname!= "") && (lastname!= "") && (email!="") && (add!="")){
+			$(".tab .active").addClass(function(){
+				$(this).removeClass("active");
+				$(this).next().addClass("active");
+
+			});
+			
+			$(".form .active").addClass(function(){
+				$(this).removeClass("active");
+				$(this).next().addClass("active");
+			});
+		};
 	});
+
+	
 });
