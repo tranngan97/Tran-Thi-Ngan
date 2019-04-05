@@ -41,7 +41,7 @@
 	</style>
 </head>
 <body>
-	<form name="myForm" onsubmit="return validateForm()" >
+	<form name="myForm" onsubmit="validateForm()" >
 		<div class="p">
 			<p>Họ và tên</p>
 			<p>Giới tính</p>
@@ -59,29 +59,28 @@
 			<input type="password" name="repass" value="" placeholder="" id="repas">
 		</div>
 	</form>
-	<input type="submit" name="" value="Đăng ký" class="submit">
+	<input type="submit" name="" value="Đăng ký" id="submit">
 	<input type="button" name="" value="Xóa Trắng" class="button">
 	<script type="text/javascript">
-		function validateForm(){
+		var submit= document.getElementById("submit")[0].addEventListener("")
+
 			var hoten= document.getElementById("hoTen").value;
 			if ((hoten=="")|| (hoten.length<8)){
 				alert("Yêu cầu nhập đầy đủ họ tên");
-				return false;
 
 			}
-			return true;
+
 
 			var sdt= document.getElementById("sdt").value;
 			var kiemTraDT = isNaN(sdt);
 			if (sdt == "") {
 				alert("Điện thoại không được để trống");
-				return false;
-			}
+				}
 			if (kiemTraDT == true) {
 				alert("Điện thoại phải để ở định dạng số");
-				return false;
+				
 			}
-			return true;
+			
 
 
 			var pass= document.getElementById("pas").value;
@@ -90,20 +89,20 @@
 				alert("Nhập lại mật khẩu phải giống mật khẩu")
 
 			}
-			return true;
+			
 
 			var email= document.getElementById("eMail").value;
 			var aCong=email.indexOf("@");
 			var dauCham = email.lastIndexOf(".");
 			if (email == "") {
 				alert("Email không được để trống");
-				return false;
+				
 			}
 			else if ((aCong<1) || (dauCham<aCong+2) || (dauCham+2>email.length)) {
 				alert("Email bạn điền không chính xác");
-				return false;
+				
 			}
-			return true;
+			
 
 
 

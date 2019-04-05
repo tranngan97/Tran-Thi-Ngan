@@ -37,18 +37,19 @@
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript">
 	$(function() {
-    
-  var allPanels = $(".para");
-  allPanels.hide();
-    
-  $(".accordion").click(function() {
-    allPanels.slideUp();
-    $(this).parent().next().slideDown();
+ 	$(".para").hide();
+    $(".title").click(function(){
+    $(this).children(".accordion").text("-");
+     $(this).children("h3").text("This is expanded panel");
+     $(this).children(".para").show();
+     $(this).parent().next().slideDown();
+     $(this).children(".para").slideUp();
+
+    	});
+     
     return false;
   });
 
-
-});
 
 	</script>
 	
@@ -60,32 +61,36 @@
 		<button class="accordion">+</button>
 		<h3>First Paragraph</h3>
 		
-		</div>
+		
 		<div class="para">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi doloribus unde molestias laborum delectus adipisci, eos repellat in debitis cum impedit numquam, architecto, facilis. Blanditiis cum quas nam ut, eum?</p>
+		</div>
 		</div>
 
 		<div class="title">
 		<button class="accordion">+</button>
 		<h3>Second Paragraph</h3>
-		</div>
+		
 		<div class="para">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusamus, ipsa asperiores earum natus nesciunt vitae maxime eum, fugit labore odio, animi sequi at excepturi itaque rerum sit eius. Minus?</p>
+		</div>
 		</div>
 
 		<div class="title">
 		<button class="accordion">+</button>
 		<h3>Third Paragraph</h3>
-		</div>
+		
 		<div class="para">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel qui ipsa consectetur fugiat harum, asperiores in voluptatum. At minus mollitia voluptate esse, fugit rem amet modi sequi blanditiis culpa vero.</p>
+		</div>
 		</div>
 		<div class="title">
 		<button class="accordion">+</button>
 		<h3>Fourth Paragraph</h3>
-		</div>
+		
 		<div class="para">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel qui ipsa consectetur fugiat harum, asperiores in voluptatum. At minus mollitia voluptate esse, fugit rem amet modi sequi blanditiis culpa vero.</p>
+		</div>
 		</div>
 	</div>
 
