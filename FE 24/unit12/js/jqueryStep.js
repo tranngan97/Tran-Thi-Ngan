@@ -45,7 +45,9 @@ $(function(){
 			$(".form .active").addClass(function(){
 				$(this).removeClass("active");
 				$(this).next().addClass("active");
+
 			});
+			$(".prev").css("background-color", "#005aff");
 		};
 		});
 	$(".next").click(function(){
@@ -102,6 +104,5 @@ $(function(){
 			});
 		};
 	});
-
 	
 });
