@@ -1,0 +1,161 @@
+@media all and (max-width: 1200px){
+	.body .jump1 {
+    height: 350px;
+}
+.icon h1 {
+    margin-left: 40%;
+}
+.img2 .jum3 {
+    padding-left: 10%;
+}
+.intouch h1 {
+    padding-left: 10%;
+}
+
+}
+@media all and (max-width: 998px){
+.row{
+		width: 100%;
+	}
+header .row{
+		height: 50px;
+	}
+header .emp{
+	display: none;
+}
+header .menu{
+	background-color: white;
+}
+header .me_nu1{
+	display: none;
+}
+header .me_nu2{
+	display: block;
+	right: 0;
+}
+header .start{
+	padding-left: 10%;
+	    padding-top: 2%;
+}
+header .start a{
+	color: red !important;
+}
+header .me_nu2 .collapse{
+	width: 50%;
+	height: 200px;
+	position: absolute;
+	z-index: 1000;
+	margin-top: 50px;
+}
+header .me_nu2 .p-4{
+	z-index: 1000;
+    height: 150px;
+}
+header ul li{
+	clear: left;
+}
+header .me_nu2 .navbar{
+	margin-left: 30%;
+    position: absolute;
+	z-index: 1000;
+}
+header .jump{
+	height: 300px;
+}
+.jum {
+    width: 70%;
+    margin-left: 2%;
+}
+.jum .jum1{
+	font-size: 25px;
+}
+.icon h1 {
+    margin-left: 35%;
+}
+.img{
+	height: 675px;
+}
+.img1{
+	height: 470px;
+}
+.intouch h1 {
+    padding-left: 18%;
+    font-size: 30px;
+}
+.img2 .jum3 {
+    padding-left: 5%;
+}
+.intouch .infor {
+        margin-left: -10%;
+}
+
+}
+@media all and (max-width: 720px){
+	.row{
+		width: 100%;
+	}
+	header .row{
+		height: 50px;
+	}
+header .emp{
+	display: none;
+}
+header .menu{
+	background-color: white;
+}
+header .me_nu1{
+	display: none;
+}
+header .me_nu2{
+	display: block;
+	right: 0;
+}
+header .start{
+	padding-left: 10%;
+	    padding-top: 2%;
+}
+header .start a{
+	color: red !important;
+}
+header .me_nu2 .collapse{
+	width: 50%;
+	height: 200px;
+	position: absolute;
+	z-index: 1000;
+	margin-top: 50px;
+}
+header .me_nu2 .p-4{
+	z-index: 1000;
+    height: 150px;
+}
+header ul li{
+	clear: left;
+}
+header .me_nu2 .navbar{
+	margin-left: 30%;
+    position: absolute;
+	z-index: 1000;
+}
+header .jump{
+	height: 300px;
+}
+.jum {
+    width: 70%;
+    margin-left: 2%;
+}
+.jum .jum1{
+	font-size: 25px;
+}
+.icon h1 {
+    margin-left: 35%;
+}
+.img2 .jum3 {
+    padding-left: 5%;
+}
+.intouch .infor {
+        margin-left: -10%;
+}
+
+}
+
+

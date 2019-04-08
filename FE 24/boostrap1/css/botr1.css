@@ -3,7 +3,7 @@
 	padding: 0;
 }
 .row{
-	width: 101%;
+	width: 100%;
 }
 header{
 	height: 400px;
@@ -26,6 +26,13 @@ header a:hover{
 	color: white !important;
 	font-weight: 600;
 }
+header .me_nu2{
+	display: none;
+}
+.jump{
+	height: 300px;
+	margin-top:6%;
+}
 .jum{
 	width: 60%;
 	color: white;
@@ -46,11 +53,9 @@ header a:hover{
 	color: #ccc;
 	font-weight: 600px;
 }
-.jump{
-	margin-top:7%;
-}
+
 .body{
-	width: 100%;
+	width: 101%;
 }
 .body .jump1{
 	background-color: #eb1010e0;
@@ -93,6 +98,7 @@ header a:hover{
 	font-size: 15px;
 	color: #ccc;
 }
+
 .img1{
 	height: 300px;
 	display: inline-block;
@@ -111,6 +117,7 @@ header a:hover{
 	color: white;
 	padding-top: 5%;
 	text-align: center;
+	    padding-left: 3%;
 }
 .img2 .btn{
 	color: black;
@@ -121,7 +128,7 @@ header a:hover{
 }
 .intouch h1{
 	padding-top: 5%;
-	padding-left: 20%;
+	padding-left: 22%;
 
 }
 .intouch hr{
