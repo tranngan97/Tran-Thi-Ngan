@@ -36,6 +36,7 @@ $(function(){
 		};
 		
 		if ( (username!= "") && (pass!= "") && (repass!="")){
+			$(".tab .active").css("background-color", " #00a1ff");
 			$(".tab .active").addClass(function(){
 				$(this).removeClass("active");
 				$(this).next().addClass("active");
@@ -48,6 +49,7 @@ $(function(){
 
 			});
 			$(".prev").css("background-color", "#005aff");
+			
 		};
 		if ($(".form").attr("class")== "proLi"){
 			var firstname= $("#firstName").val();
@@ -55,6 +57,7 @@ $(function(){
 			var email= $("#eMail").val();
 			var add = $("#add").val();
 			var agg= $("#agg").val();
+			agg = parseInt(agg);
 			if (firstname== ""){
 				$(".form .ero4 p").text("This field is required");
 				$(".form .ero4 p").css("color", "red");
@@ -84,26 +87,18 @@ $(function(){
 
 			};
 
-			if ( (firstname!= "") && (lastname!= "") && (email!="") && (add!="") ){
+			if ( (firstname!= "") && (lastname!= "") && (email!="") && (add!="") && (agg !="")){
 				$(".tab .active").addClass(function(){
 					$(this).removeClass("active");
 					$(this).next().addClass("active");
-					if (($(".tab").attr('class')=='warning') && (agg > 18)){
-					$(this).removeClass("active");
-					$(this).next().addClass("active");
-					};
-					
-
 				});
+				$(".tab .warning").css("background-color", "#ccc");
+				$(".form .warning").css("display", "none");
+				
 
 				$(".form .active").addClass(function(){
 					$(this).removeClass("active");
 					$(this).next().addClass("active");
-					if (($(".form1").attr('class')=='warning') && (agg > 18)){
-					$(this).removeClass("active");
-					$(this).next().addClass("active");
-
-					};
 				
 				});
 
@@ -113,6 +108,10 @@ $(function(){
 		};
 		if ($(".form").children().attr("class")== "finish"){
 			$(".next").css("background-color", "#ccc");
+			$(".next").click(function(){
+				
+
+			});
 
 		};
 
