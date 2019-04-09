@@ -27,6 +27,7 @@ header a:hover{
 	font-weight: 600;
 }
 header .me_nu2{
+	width: 100%;
 	display: none;
 }
 .jump{
