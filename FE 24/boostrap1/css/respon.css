@@ -1,4 +1,11 @@
 @media all and (max-width: 1200px){
+	header{
+		width: 101%;
+
+	}
+	.body {
+		width: 101%;
+	}
 	header .jum h1{
 		font-size: 30px;
 	}
