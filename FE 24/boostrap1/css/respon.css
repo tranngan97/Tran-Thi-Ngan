@@ -70,13 +70,15 @@ header .me_nu2 .p-4{
 header ul li{
 	clear: left;
 }
-header .me_nu2 .navbar {
-    margin-left: 90%;
-    position: absolute;
-    z-index: 1000;
-    margin-top: -50px;
+header .logo {
+	display: none;
 }
-header .me_nu2 .collapse {
+header .me_nu2 .navbar {
+    width: 100%;
+    margin-top: -2%;
+    margin-left: 2%;
+}
+header .me_nu2 .navbarNav {
     margin-top: 5px;
     margin-left: 52%;
 }
@@ -151,12 +153,20 @@ header .emp{
 header .menu{
 	background-color: white;
 }
+header .logo {
+	display: none;
+}
 header .me_nu1{
 	display: none;
 }
 header .me_nu2{
 	display: block;
 	right: 0;
+}
+header .me_nu2 .navbar {
+    width: 103%;
+    margin-top: -13%;
+    margin-left: 4%;
 }
 header .start{
 	padding-left: 10%;
@@ -211,9 +221,13 @@ header .jump{
 	header{
 		height: 600px;
 	}
-header .me_nu2 .navbar{
-	margin-top: -15%;
-	margin-left: 75%;
+	header .logo {
+	display: none;
+}
+header .me_nu2 .navbar {
+    width: 103%;
+    margin-top: -13%;
+    margin-left: 4%;
 }
 header .me_nu2 .collapse{
  margin-left: 55%;
