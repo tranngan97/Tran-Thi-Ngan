@@ -43,6 +43,12 @@
 header .row{
 		height: 50px;
 	}
+	header{
+		width: 105%;
+	}
+
+.body{ width: 105%; }
+
 header .emp{
 	display: none;
 }
@@ -92,9 +98,7 @@ header .me_nu2 .navbarNav {
 header .jump{
 	height: 300px;
 }
-.body {
-    width: 101%;
-}
+
 .jump1{
 	width: 102%;
 }
